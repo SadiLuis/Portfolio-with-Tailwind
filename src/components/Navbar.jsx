@@ -12,6 +12,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.gif';
 import { Link } from 'react-scroll';
 import Resume from "../assets/Full-StackCV-English.pdf"
+import ResumeSpanish from "../assets/Full-StackCV-Español.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -121,9 +122,17 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href={Resume} download
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume English <BsFillPersonLinesFill size={30} />
             </a>
           </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-2xl'>
+          <a 
+            className='flex justify-between items-center w-full text-gray-300'
+            href={ResumeSpanish} download
+          >
+            Resume Spanish <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
         </ul>
       </div>
     </div>
