@@ -12,7 +12,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.gif';
 import { Link } from 'react-scroll';
 import Resume from "../assets/Full-StackCV-English.pdf"
-import ResumeSpanish from "../assets/Full-StackCV-Español.pdf"
+import ResumeSpanish from "../assets/Full-StackCV.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
