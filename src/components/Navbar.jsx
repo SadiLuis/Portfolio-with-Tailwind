@@ -11,7 +11,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.gif';
 import { Link } from 'react-scroll';
-import Resume from "../assets/Full-StackCV-English.pdf"
+import Resume from "../assets/CVEnglish-FullStack.pdf"
 import ResumeSpanish from "../assets/Full-Stack-WebDeveloper.pdf"
 
 const Navbar = () => {
